@@ -1,60 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rockpaperscissor</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="stylesheet.css">
-<body>
-    <h1>Welcome To This Game</h1>
-    <p>This game is similiar to rock,paper and scissor.The only diffrence is that here we use water and and fire instead</p>
-    <div class="note"><p >NOTE*: HERE WE HAVE SAID FIRE DEFEATS WATER THIS ONLY FOR
-       GAME PURPOSE </p></body></div>
-    <table>
-        <tr>
-          <th>ELEMENT</th>
-          <th>ELEMENT</th>
-          <th>RESULT</th>
-        </tr>
-        <tr>
-          <td>FIRE</td>
-          <td>WATER</td>
-          <td>FIRE WINS</td>
-        </tr>
-        <tr>
-          <td>FIRE</td>
-          <td>SAND</td>
-          <td>SAND WINS</td>
-        </tr>
-        <tr>
-          <td>WATER</td>
-          <td>SAND</td>
-          <td>WATER WINS</td>
-        </tr>
-        <tr>
-          <td>FIRE</td>
-          <td>FIRE</td>
-          <td>DRAW </td>
-        </tr>
-        <tr>
-          <td>WATER</td>
-          <td>WATER</td>
-          <td> DRAW</td>
-        </tr>
-        <tr>
-          <td>SAND</td>
-          <td>SAND</td>
-          <td> DRAW</td>
-        </tr>
-        
-      </table>
-    <p id="result"></p>
-    <div class="container">
-      <button type="button"><div class="img1"><img src="https://cdn.pixabay.com/photo/2013/06/09/17/04/fire-123784_960_720.jpg" width="auto" height="180"><img/></div></button>
-      <button type="button"><div class="img2"><img src="https://cdn.pixabay.com/photo/2014/12/24/05/02/drop-of-water-578897_960_720.jpg" width="auto" height="180"><img/></div></button>
-      <button type="button"><div class="img3"><img src="https://cdn.pixabay.com/photo/2016/11/19/17/24/desert-1840453_960_720.jpg" width="auto" height="180"><img/></div></button>
-    </div>
-</body>
-</html>
+
+.img1, .img2, .img3 {
+    border: 7px solid hsl(0, 59%, 41%);
+    position: relative;
+    padding: 0px;
+    margin: 1cm;
+    float: left;
+}
+table, th, td {
+    border: 1px solid darkgreen;
+  }
+  
+  table {
+    width: 70%;
+    margin-top: -2.5cm;
+    
+  }
+.note{
+  border: 2px solid black;
+  width: 20%;
+  margin-left: 28cm;
+
+}
+button{
+  margin-top: 1.3cm;
+}
+#rounds {
+  background-color: black;
+  color: beige;
+  font-weight: bolder;
+  font-size: 42px;
+}
+#userscore{
+  color: brown;
+  background-color: cyan;
+  font-weight: bolder;
+  font-size: 36px;
+}
+#compscore{
+  color: brown;
+  background-color: rgb(29, 190, 69);
+  font-weight: bolder;
+  font-size: 36px;
+}
+#restart{
+  background-color: darkorange;
+  font-weight: 800;
+}
