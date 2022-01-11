@@ -48,6 +48,7 @@ function gameplay(){
       else {
         alert("loser");
         compscore++;
+        rounds++;
     }
       document.getElementById("rounds").innerHTML = "ROUNDS  " + rounds + "/5";
       document.getElementById("userscore").innerHTML = "Your Score = " +  playerscore;
