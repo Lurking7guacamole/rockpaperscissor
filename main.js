@@ -32,7 +32,7 @@ function gameplay(){
             
             else if (playerselection == ("s",'S')) {
                 if (playerselection == ('s','S') & compselection == ('p','P')) {
-                    alert("scissor beats paper , hence u win");
+                    alert("scissor beats paper , hence u  win");
                 }
                 else if (playerselection == ('s','S') & compselection == ('r','r')) {
                     alert("rock beats scissor , hence u lose");
